@@ -1,0 +1,182 @@
+/* AZUL #0F5DE1 - NEGRO #121213 - GRIS OSCURO #313C48 - GRIS CLARO #778798 
+@media (max-width: 575.98px)
+@media (max-width: 767.98px)
+@media (max-width: 991.98px)
+@media (max-width: 1199.98px)
+*/
+
+* {box-sizing: border-box;}
+
+body {background: #121213; font-family: "Montserrat"; color: white; margin: 0px;}
+header {background-color: #0F5DE1;}
+.header {margin: auto; padding-top: 14px; padding-bottom: 14px; display: flex; justify-content: space-between; align-items: center;}
+
+/*HEADINGS*/
+h4 {font-size: 15px;}
+h2, h3 {font-family: "Roboto Mono"; text-align: center;}
+h3 {font-weight: 700; font-size: 20px; color: white; margin: 0; padding-bottom: 15px;}
+h2 {font-weight: 400; font-size: 25px; color: #778798; margin: 0; padding-bottom: 30px; padding-top: 70px;}
+h1 {font-family: "Roboto Mono"; text-align: center; font-size: 45px; font-weight: 400;}
+#h1Destacado {font-size: 60px; line-height: 70px; padding: 100px 0px;}
+
+/*TEXTS*/
+p {font-family: "Montserrat"; color: #CCCCCC; font-size: 15px; line-height: 24px; text-align: left; margin: 0;}
+a {text-decoration: none;}
+ul li {list-style-type: none;}
+
+p.quote {font-weight: 400; font-size: 25px; line-height: 33px; padding-bottom: 30px;}
+p.quote-name {font-weight: 700; font-size: 16px; color: #778798; text-transform: uppercase; padding-bottom: 10px;}
+p.quote-name-cargo {color: #778798; font-size: 14px; line-height: 20px;}
+p.destacado {font-size: 20px; font-weight: 300; line-height: 25px;}
+h2.subtitulo {color: white;}
+
+
+/*MENU*/
+.menu {font-family: "Montserrat"; font-size: 14px;}
+.menu-logo {width: 140px;}
+.menu-item {margin-left: 10px; color: white; padding-bottom: 5px; padding-right: 0px;}
+.menu-desplegable-item {font-family: "Montserrat"; font-size: 14px; color: white; padding: 10px 15px ;}
+.menu-item:hover {text-decoration: line-through; color: white; background-color: transparent;}
+.menu-desplegable {background-color: #0F5DE1;}
+.menu-desplegable-item:hover {text-decoration: line-through; color: white; background-color: transparent;}
+
+/*HOME*/
+#ultimosproyectosContainer {max-width: 1200px; margin: auto; padding-top: 70px; padding-bottom: 70px;}
+.portfolio-home {max-width: 1200px; margin: auto; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: auto auto; padding-bottom: 45px;}
+
+.banner-texto {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+
+.portada-proyecto {overflow: hidden;}
+.portada-proyecto img {max-width: 100%; transform: scale(1.05);}
+.portada-proyecto:hover img {transform: scale(1.1); opacity: 0.6; transition: 500ms ease;}
+.portada-proyecto:hover {background-color: #0F5DE1;}
+
+.boton-vermas {display: flex; justify-content: center; align-items: center; padding-bottom: 70px;}
+
+#bannerSeccionContainer {max-width: 100vw; margin: auto; position: relative; display: inline-block; text-align: center; height: 300px; overflow: hidden; padding-bottom: 60px;}
+.banner-seccion {width:100%; margin: auto; padding-bottom: 30px;}
+
+
+/*PROYECTOS*/
+#proyectosContainer {max-width: 1200px; margin: auto; padding-bottom: 35px;}
+
+/*CLIENTES*/
+#container {padding-bottom: 70px; padding-top: 70px;}
+.clientes-logos {max-width: 1200px; margin: auto; display: grid; grid-gap: 20px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-template-rows: auto auto auto auto;}
+.clientes-grilla img {max-width: 100%; height: auto; opacity: 0.3;}
+.clientes-grilla:hover img {opacity: 1; transition: 500ms ease;}
+
+#testimoniosContainer {margin: auto; padding-bottom: 70px;}
+.clientes-testimonios {display: grid; grid-gap: 40px; grid-template-columns: 1fr 1fr;}
+.testimonio {padding-left: 25px; border-left: 4px solid #0F5DE1;}
+
+/*CONTACTO*/
+input, select, textarea {font-family: "Montserrat"; color: white; font-size: 15px; line-height: 28px; width: 500px; background-color: transparent; margin-top: 5px;}
+label {font-family: "Montserrat"; color: #CCCCCC; font-size: 15px; line-height: 28px; font-weight: 700;}
+
+.select {background-color: #222222; margin-bottom: 15px; border: 2px solid #778798; padding: 5px; color: white;}
+
+.formulario div {margin-bottom: 20px;}
+.imput {margin-bottom: 15px; border: 0; border-bottom: 2px solid #778798; padding bottom: 5px; padding-top: 5px; padding-right: 5px;}
+.imput-borde {margin-bottom: 15px; border: 2px solid #778798; padding: 5px;}
+
+.imput:focus {outline: 0; border-bottom: 2px solid #0F5DE1;}
+.imput-borde:focus {outline: 0; border: 2px solid #0F5DE1;}
+.select:focus {outline: 0; border: 2px solid #0F5DE1;}
+
+.contacto-container {display: grid; grid-gap: 10px; grid-template-columns: 1fr 1fr;}
+
+.mapa {width: 550px; height: 500px;}
+
+/*SERVICIOS*/
+.servicios {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 35px;}
+.servicios-textos h2,p {text-align: left; padding-bottom: 30px;}
+.servicios-img img {width: 600px;}
+
+.servicios-container {background-color: #313C48; padding-bottom: 70px; padding-top: 70px;}
+.servicios-tipos {max-width: 1200px; margin: auto; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 120px;}
+.servicios-tipos-columnas {display: grid; grid-template-rows: auto auto auto; grid-template-columns: 1fr; justify-items: center;}
+.servicios-tipos p {text-align: center;}
+.servicios-tipos-columnas img {width: 60px; padding-bottom: 15px;}
+
+
+/*BOTONES*/
+.boton {margin: auto; background-color: transparent; border: 1px solid #778798; padding: 8px 15px; cursor: pointer;}
+.boton a {color: #778798; font-family: "Roboto Mono"; font-weight: 700; font-size: 14px; text-decoration: none;}
+
+.boton:hover {border: 1px solid white; transition: 500ms ease;}
+.boton:hover a {color: white; transition: 500ms ease;}
+
+.boton-enviar {background-color: transparent; border: 1px solid #778798; padding: 8px 15px; cursor: pointer; color: #778798; font-family: "Roboto Mono"; font-weight: 700; font-size: 14px;}
+.boton-enviar:hover {border: 1px solid white; color: white; transition: 500ms ease;}
+
+/*FOOTER*/
+.footer-container {margin: auto; padding-top: 70px; padding-bottom: 25px;}
+.footer-container a {color: white;}
+.footer-links:hover {color: #778798; text-decoration: none;}
+
+footer {font-family: "Montserrat"; font-size: 13px; background-color: #222222; font-weight: 400;}
+.footer-container {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 200px auto; grid-gap: 8px;
+	grid-template-areas: 
+		"mapasitio contacto contacto redes"
+		"copyright copyright copyright copyright";}
+.footer-container .footer-columna1 {grid-area: mapasitio}
+.footer-container .footer-columna2 {grid-area: contacto}
+.footer-container .footer-columna3 {grid-area: redes}
+.footer-container .copyright {grid-area: copyright}
+
+h4.footer-titulos {font-weight: 700; color: #778798;}
+.copyright {text-align: center; padding-top: 10px; padding-bottom: 10px;}
+.copyright p {font-size: 12px; text-align: center;}
+
+
+@media (max-width: 575.98px) {
+
+	h2 {padding-bottom: 20px; padding-top: 15px;}
+
+	.navbar {padding-left: 15px; padding-right: 15px;}
+	.menu-logo {max-width: 140px;}
+
+	.carousel-responsive {display: none;}
+
+	.container {padding-right: 0; padding-left: 0;}
+
+	.subtitulo-home {display: none;}
+	.portfolio-home {max-width: 100vw; display: block;}
+	.portada-proyecto {overflow: hidden;}
+	.portada-proyecto img {max-width: 100vw;}
+
+	.boton-vermas {padding-bottom: 40px; }
+	.boton a {font-size: 18px;}
+
+	.footer-container {display: block; padding-left: 30px; padding-right: 30px;}
+	.footer-container p {font-size: 18px; line-height: 30px;}
+	.footer-columna1 {padding-bottom: 30px;}
+	.footer-columna2 {padding-bottom: 30px;}
+	.footer-columna3 {padding-bottom: 30px;}
+	h4 {text-align: center; font-size: 18px;}
+	p {text-align: center;}
+
+	#bannerSeccionContainer {height: 250px; overflow: hidden; padding-bottom: 0px;}
+	h1 {font-size: 30px;}
+	.banner-texto {position: absolute; top: 50%; left: 50%; line-height: 35px; transform: translate(-50%, -50%);}
+
+	.clientes-logos {max-width: 90vw; grid-gap: 10px; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto auto auto;}
+	#container {padding-bottom: 30px; padding-top: 15px;}
+	#testimoniosContainer {margin: auto; padding-bottom: 20px;}
+	.clientes-testimonios {grid-template-columns: 1fr;}
+	.testimonio {padding-left: 0px; border-left: none;}
+	.testimonio p {text-align: center;}
+
+	.servicios {display: grid; grid-template-columns: 1fr; grid-gap: 35px;}
+	.servicios-textos h2,p {text-align: center; padding-bottom: 30px; padding-left: 20px; padding-right: 20px;}
+	.servicios-tipos {max-width: 300px; margin: auto; display: grid; grid-template-columns: 1fr; grid-gap: 20px;}
+	.servicios-img img {max-width: 100vw;}
+	.servicios-textos button {display: none;}
+
+	.contacto-container {grid-gap: 20px; grid-template-columns: 1fr; margin-left: 15px; margin-right: 15px;}
+
+	input, select, textarea {font-size: 15px; line-height: 28px; max-width: 90vw;}
+	.mapa {max-width: 90vw;}
+
+}
